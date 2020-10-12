@@ -17,14 +17,17 @@
     "web-component"
   ],
   "dependencies": {
-    "aurelia-template-lint": "0.9.x",
     "gulp": "3.x",
     "gulp-util": "3.x"
+  },
+  "peerDependencies": {
+    "aurelia-template-lint": ">= 0.9"
   },
   "scripts": {
     "test": "gulp test"
   },
   "devDependencies": {
-    "gulp-jasmine": "^2.3.0"
+    "gulp-jasmine": "^2.3.0",
+    "aurelia-template-lint": "0.x"
   }
 }
